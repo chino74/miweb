@@ -1,0 +1,122 @@
+manrope fuente -font-family: 'Manrope', sans-serif;
+roboto fuente  -font-family: 'Roboto', sans-serif;
+
+
+sobre nosotros..
+
+Propulsar 3D es una empresa creada en el 2019, a partir de su salida emergente
+al rubro de la impresion 3d ha comprendido lo que el cliente necesita. 
+Contamos con una amplia gama de materiales para la fabricacion de piezas, contamos con un equipo
+de diseñadores que nos permiten llevar a cabo
+
+<div class="contenedor-botones">
+                            
+                            <button class="boton">Inicio</button>
+                            <button class="boton">Carecteristicas</button>
+                            <button class="boton">Galeria</button>
+                            <button class="boton">Preguntas Frecuentes</button>
+                            <button class="boton">Presupuesto</button>
+                            <button class="boton">Seguimiento de Pedidos</button>
+                
+                                       
+                        </div>
+
+
+.css-button-sharp--blue {
+  min-width: 130px;
+  height: 40px;
+  color: #fff;
+  padding: 5px 10px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  display: inline-block;
+  outline: none;
+  border: 2px solid #2c0b8e;
+  background: #2c0b8e;
+}
+.css-button-sharp--blue:hover {
+  background: #fff;
+  color: #2c0b8e
+}
+
+
+
+
+boton2
+
+
+.css-button-sliding-to-left--blue {
+  min-width: 130px;
+  height: 40px;
+  color: #fff;
+  padding: 5px 10px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  display: inline-block;
+  outline: none;
+  border-radius: 5px;
+  z-index: 0;
+  background: #fff;
+  overflow: hidden;
+  border: 2px solid #2c0b8e;
+  color: #2c0b8e;
+}
+.css-button-sliding-to-left--blue:hover {
+  color: #fff;
+}
+.css-button-sliding-to-left--blue:hover:after {
+  width: 100%;
+}
+.css-button-sliding-to-left--blue:after {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  transition: all 0.3s ease;
+  left: 0;
+  top: 0;
+  width: 0;
+  height: 100%;
+  background: #2c0b8e;
+}
+
+boton3
+
+.css-button-sliding-to-bottom--blue {
+  min-width: 130px;
+  height: 40px;
+  color: #fff;
+  padding: 5px 10px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  display: inline-block;
+  outline: none;
+  border-radius: 5px;
+  z-index: 0;
+  background: #fff;
+  overflow: hidden;
+  border: 2px solid #2c0b8e;
+  color: #2c0b8e;
+}
+.css-button-sliding-to-bottom--blue:hover {
+  color: #fff;
+}
+.css-button-sliding-to-bottom--blue:hover:after {
+  height: 100%;
+}
+.css-button-sliding-to-bottom--blue:after {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  transition: all 0.3s ease;
+  left: 0;
+  top: 0;
+  height: 0;
+  width: 100%;
+  background: #2c0b8e;
+}
